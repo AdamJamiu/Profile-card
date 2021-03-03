@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 body{
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #f7f4ff;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url();
+  
   }
 
 .container{
-  padding-left: 30%;
-  margin-right: %;
+  margin-left: 30%;
   margin-top: 8%;
   cursor: pointer;
 }
@@ -24,14 +23,10 @@ body{
 
   }
 
-  .profile-container:hover{
-    transform: translateY(-5%);
-    transition: .5s ease-in-out;
-  }
 
 .empty{
   width: 100%;
-  background: purple;
+  background-image: url("bg-pattern-card.svg");
   height: 160px;
   border-radius: 25px 25px 0px 0px;
 }
@@ -51,9 +46,10 @@ body{
 }
 
 .name{
-
-  font-weight: 600;
+    color: hsl(229, 23%, 23%);  
+  font-weight: 700;
   line-height: 0;
+  
 }
 
 p{
@@ -70,15 +66,15 @@ p{
 }
 
 span{
-  color: purple;
+color: hsl(0, 0%, 59%);
   padding-left: 10px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .follow{
   line-height: 1;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 
@@ -89,13 +85,14 @@ span{
   font-size: 12px;
   display: flex;
   justify-content: space-between;
+  color: hsl(0, 0%, 59%)
 
 }
 
 
 .state{
   text-align: center;
-  font-weight: 600;
+    font-weight: 400;
   line-height: 0;
   font-size: 15px;
 }
