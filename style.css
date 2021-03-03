@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f4ff;
+  }
+
+.container{
+  padding-left: 30%;
+  margin-right: %;
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+.profile-container{
+  height: 500px;
+  width: 40%;
+  display: block;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #fff;
+  box-shadow: 2px 2px 50px rgb(0 0 0 / 15%);
+
+  }
+
+  .profile-container:hover{
+    transform: translateY(-5%);
+    transition: .5s ease-in-out;
+  }
+
+.empty{
+  width: 100%;
+  background: purple;
+  height: 160px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.maryam{
+  border-radius: 500px;
+  margin-bottom: 1em;
+
+}
+
+.profile-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-25%);
+  z-index: 9;
+}
+
+.name{
+
+  font-weight: 600;
+  line-height: 0;
+}
+
+p{
+  color: #000000A6;
+
+}
+
+
+.followers{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #0000004A;
+  padding-top: 1.5em;
+}
+
+span{
+  color: purple;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.follow{
+  line-height: 1;
+  font-weight: 600;
+
+}
+
+.social{
+  line-height: 0;
+  letter-spacing: 1.5px;
+  text-align: left;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.state{
+  text-align: center;
+  font-weight: 600;
+  line-height: 0;
+  font-size: 15px;
+}
