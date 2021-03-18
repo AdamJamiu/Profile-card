@@ -5,24 +5,26 @@ body{
   font-family: 'Kumbh Sans', sans-serif;
   background-image: url(bg-pattern-top.04cf5891.svg);
   background-color: #19a2ae;
+  height: 95vh;
   }
 
 .container{
-  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 8%;
-  cursor: pointer;
+  
 }
 
 .profile-container{
   height: 500px;
-  width: 40%;
+  width: 450px;
   display: block;
   border-radius: 25px 25px 25px 25px;
   background-color: #fff;
   box-shadow: 2px 2px 50px rgb(0 0 0 / 15%);
-
+  cursor: pointer;
   }
-
 
 .empty{
   width: 100%;
